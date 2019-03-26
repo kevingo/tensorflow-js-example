@@ -3,7 +3,7 @@ require('@tensorflow/tfjs-node');
 
 tf.setBackend('tensorflow');
 
-async function myFirstTfjs() {
+async function linear_regression() {
 	// Create a simple model.
 	const model = tf.sequential();
 	model.add(tf.layers.dense({units: 1, inputShape: [1]}));
@@ -27,4 +27,4 @@ async function myFirstTfjs() {
 	console.log(output);
 }
 
-myFirstTfjs();
+linear_regression();
