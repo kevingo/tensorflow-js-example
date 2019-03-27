@@ -1,0 +1,26 @@
+{
+  "name": "tensorflow-js-example",
+  "version": "1.0.0",
+  "description": "This repository contains a set of examples implemented in [TensorFlow.js](https://www.tensorflow.org/js).",
+  "main": "hello.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevingo/tensorflow-js-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevingo/tensorflow-js-example/issues"
+  },
+  "homepage": "https://github.com/kevingo/tensorflow-js-example#readme"
+}
